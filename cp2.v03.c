@@ -2,7 +2,7 @@
 
 int main(void) {
     int n;
-    printf("Please enter a number (1 - 10): ");
+    printf("Enter a number (1 - 10): ");
     scanf("%d", &n);
 
     while (n < 1 || n > 10) {
